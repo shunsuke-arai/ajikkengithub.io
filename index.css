@@ -1,0 +1,150 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  margin: 0px;
+}
+
+.Header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+.Title{
+  background-color: #fff;
+  font-size: 30px;
+  font-family: "ヒラギノ明朝 ProN","Hiragino Mincho ProN"; font-weight: bold;
+  text-align: center;
+}
+
+.Title a{
+  color: rgba(0, 0, 0, 0.466);
+}
+
+.Menu{
+  background-color: rgba(0, 0, 0);
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+}
+
+.Menu li a{
+  color: #fff;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.DL a{
+  background-color: rgb(255, 0, 0);
+  padding: 10px 30px;
+}
+
+.Main{
+  margin-top:10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.GameTitle{
+  background-image: url(./img/goblin.png);
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+
+.GameTitle h1{
+  font-size: 40px;
+  margin-left: 70%;
+  padding-top: 350px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.GameTitle p{
+  font-size: 16px;
+  margin-left: 75%;
+  margin-right: 10%;
+  padding-top: 20px;
+  background-color: rgb(255, 0, 0);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 10px 30px;
+}
+
+.GameTitle a{
+  color: #fff;
+}
+
+.MainText{
+  text-align: center;
+}
+
+.Main h1{
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Main h2{
+  font-size: 32px;
+}
+
+.Main p{
+  font-size: 20px;
+}
+
+.FirstLine{
+  margin-top: 50px;
+}
+
+.Element h2{
+  margin-top: 60px;
+}
+
+.PP{
+  margin-top: 80px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Download{
+  padding-top: 80px;
+}
+
+.Download p{
+  padding-bottom: 10px;
+}
+
+.Download a{
+  padding: 10px 30px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border-style: solid;
+  border-color: rgb(255, 0, 0);
+}
+
+footer{
+  margin-top: 200px;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+
+footer a{
+  color: #fff;
+}
